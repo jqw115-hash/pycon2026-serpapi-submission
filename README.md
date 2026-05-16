@@ -4,6 +4,29 @@ A travel planning app that searches across 6 SerpApi engines simultaneously to b
 
 Built with [SerpApi](https://serpapi.com) Python SDK and [Streamlit](https://streamlit.io).
 
+## Screenshots
+
+### Landing Page
+![Landing page](screenshots/01_landing.png)
+
+### Attractions — Rated places with thumbnails, addresses, open/closed status, and Google Maps links
+![Attractions tab](screenshots/03_attractions.png)
+
+### Food & Dining — Restaurants with prices, ratings, phone numbers, and operating hours
+![Food tab](screenshots/05_food.png)
+
+### Hidden Gems — Trending, viral, and instagrammable spots from travel blogs and social media
+![Hidden gems tab](screenshots/06_hidden_gems.png)
+
+### Events — Upcoming local events with venue ratings, ticket links, and map views
+![Events tab](screenshots/07_events.png)
+
+### Travel Videos — YouTube vlogs and guides in a thumbnail grid
+![Videos tab](screenshots/08_videos.png)
+
+### Traveler FAQ — Auto-generated from Google's "People Also Ask" + related searches
+![FAQ tab](screenshots/09_faq.png)
+
 ## What It Does
 
 WanderLens takes a destination city and optional travel interests, then queries 6 SerpApi engines:
@@ -19,12 +42,12 @@ WanderLens takes a destination city and optional travel interests, then queries 
 
 Results are organized into 6 tabs:
 
-- **Attractions** — rated places with addresses and thumbnails
-- **Food & Dining** — grouped by price tier ($, $$, $$$, $$$$)
-- **Hidden Gems** — trending, viral, and instagrammable spots from travel blogs
-- **Events** — upcoming local events with dates and venues
-- **Travel Videos** — YouTube vlogs in a thumbnail grid
-- **Traveler FAQ** — auto-generated from Google's "People Also Ask" + related searches
+- **Attractions** — rated places with addresses, open/closed status, operating hours, Google Maps links, and thumbnails
+- **Food & Dining** — grouped by price tier ($, $$, $$$, $$$$) with websites, phone numbers, and hours
+- **Hidden Gems** — trending, viral, and instagrammable spots from travel blogs and social media
+- **Events** — upcoming local events with dates, venue ratings, ticket purchase links, and map views
+- **Travel Videos** — YouTube vlogs in a thumbnail grid with channel names and view counts
+- **Traveler FAQ** — auto-generated from Google's "People Also Ask" + related searches for discovery
 
 ### Smart Query Adaptation
 
@@ -35,8 +58,8 @@ Select travel interests (Foodie, Culture, Outdoors, Nightlife, Shopping) and Wan
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-url>
-cd wanderlens
+git clone https://github.com/jqw115-hash/pycon2026-serpapi-submission.git
+cd pycon2026-serpapi-submission
 ```
 
 ### 2. Install dependencies
