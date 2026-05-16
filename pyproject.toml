@@ -1,0 +1,10 @@
+[project]
+name = "wanderlens"
+version = "0.1.0"
+description = "SerpApi-powered travel planner that searches 6 engines to build destination guides"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "serpapi>=1.0.2",
+    "streamlit>=1.57.0",
+]
